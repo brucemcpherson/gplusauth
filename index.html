@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+  </head>
+  <body>
+
+
+   <!--- signin elements --->
+   <button id="authorize-button" style="visibility: hidden">Authorize</button>
+   <span id="signinButton">
+    <span
+      class="g-signin"
+      data-callback="signinCallback"
+      data-clientid="1022328625890-09k2pc4b3fghfri3ejntqvkb2qdnq8af.apps.googleusercontent.com"
+      data-cookiepolicy="single_host_origin"
+      data-requestvisibleactions="http://schema.org/AddAction"
+      data-scope="https://www.googleapis.com/auth/plus.login">
+    </span>
+  </span>
+  <div id="content"></div></div>
+
+    <p>Retrieves your profile name using the Google Plus API.</p>
+
+
+    <!--- js --->
+    <script src="main.js"></script>
+    <script src="oauth2.js"></script>
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+
+  </body>
+</html>
